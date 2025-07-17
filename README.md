@@ -12,7 +12,7 @@ I repurposed an old desktop into a dedicated server!
 CPU - AMD Ryzen 7 3700X 8-Core Processor   
 RAM - 2x 8GiB DIMM DDR4 G Skill Intl (F4-3600C16-8GVKC) (May add more!)  
 MOBO - ROG STRIX B450-F GAMING  
-GPU - None 
+GPU - None  
 Harddrive - Realtek Inland QN450 NVMe SSD NVMe  
 
 
