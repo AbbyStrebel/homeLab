@@ -1,0 +1,15 @@
+# Secrets — never commit real values. Only *.example files are tracked.
+*.env
+!*.env.example
+.env
+secrets/
+*.key
+*.pem
+
+# Editor / OS cruft
+.DS_Store
+*.swp
+
+# Python venvs (if any tooling is added locally)
+.venv/
+__pycache__/
