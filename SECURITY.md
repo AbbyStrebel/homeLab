@@ -1,6 +1,6 @@
 # Security posture
 
-This is a threat model for my homelab. It states what I'm protecting, what I've 
+This is a threat model for my homelab. It states what I'm protecting, what I've
 done, and — deliberately — what I know is still open.
 
 > **Note:** this file intentionally contains no secrets, no exact rules, no IPs,
@@ -25,12 +25,12 @@ done, and — deliberately — what I know is still open.
 ## Current mitigations
 
 - **Dedicated firewall (OPNsense)** at the network layer rather than relying on
-  the ISP gateway's firmware. 
+  the ISP gateway's firmware.
 - **SSH is not exposed to the internet** — port 22 is closed at the edge and
   there's no VPN into the lab yet, so SSH is reachable only from inside the LAN.
 - **Secrets kept out of this repo** — API credentials (e.g. Porkbun), keys, and
   config with real values are not committed; the repo documents architecture only.
-- **Inbound:** no ports are forwarded from the internet. This may change in the 
+- **Inbound:** no ports are forwarded from the internet. This may change in the
   future, research (e.g reverse proxy) is a roadmap item.
 
 <!-- TODO Update when ADR exists?? reread?
