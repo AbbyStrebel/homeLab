@@ -5,6 +5,7 @@
 secrets/
 *.key
 *.pem
+*.password
 
 # Editor / OS cruft
 .DS_Store
