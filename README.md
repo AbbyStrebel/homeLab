@@ -166,17 +166,19 @@ This is the heart of the lab.
 ### RF
 
 #### Misc.
+
 - HackRF-1 + Portapack ([Meyhem Firmware](https://hackrf.app))
 - Flipper Zero
 - RTL-SDR
 
 #### HTs
+
 - 2 x TD-H3 (2M/70cm, 5W)
 - TD-H9 (2M/70cm, 10W, GNSS, APRS capable)
 
 #### Other Transceivers
-- tr(u)SDX
 
+- tr(u)SDX
 
 ---
 
