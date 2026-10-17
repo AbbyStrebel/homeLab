@@ -76,4 +76,3 @@ This is a personal lab with nothing hosted for others, so there's no formal
 disclosure process. If you spot something concerning in this *repo* (e.g. a
 secret I accidentally committed), please open an issue without posting the secret
 itself.
-
