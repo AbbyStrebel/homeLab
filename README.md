@@ -102,7 +102,7 @@ This is the heart of the lab.
 
 - **Dedicated firewall (OPNsense)** at the network edge rather than trusting the
   ISP gateway's consumer firmware — full control of rules, routing, and the
-  segmentation work below. 
+  segmentation work below.
 - **Segmentation (in progress, current priority):** a managed switch plus
   OPNsense, working toward proper VLAN separation (e.g. trusted / IoT / lab) so a
   compromised device can't freely reach the rest of the network. Plan,
@@ -165,7 +165,7 @@ This is the heart of the lab.
 
 ### RF
 
-#### Misc.
+#### Miscellaneous
 
 - HackRF-1 + Portapack ([Meyhem Firmware](https://hackrf.app))
 - Flipper Zero
