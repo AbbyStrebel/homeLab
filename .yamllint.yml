@@ -1,0 +1,14 @@
+# yamllint config — relaxed, homelab-appropriate (not enterprise-strict).
+extends: relaxed
+
+rules:
+  line-length:
+    max: 120
+    level: warning
+  document-start: disable   # don't require '---' at the top of every file
+  truthy:
+    allowed-values: ["true", "false", "on"]   # 'on:' in GH Actions is valid
+    check-keys: false
+
+ignore: |
+  .venv/
